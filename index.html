@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Developer Patrick Lima</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="animate.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+</head>
+
+
+<body class="bg-dark">
+    <script src="node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
+    <!--SE DER COLOCAR UM SCRIPT PARA ROLAGEM DE PAGINA SUAVE-->
+    <!--SCRIPT NÃO FUNCIONOU, TIRAR DUVIDA COM O PROFESSOR
+    <script>
+        var $doc = $('html, body');
+        $('a').click(function () {
+            $doc.animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+            return false;
+        });
+    </script>
+-->
+
+    <!--NAVBAR RESPONSIVO-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id="navbar">
+
+        <span class="navbar-toggler border-0" data-toggle="colappse">MENU</span>
+
+        <button href="#navbar1" class="navbar-toggler" data-toggle="collapse">
+            <span class="fas fa-bars"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbar1">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a href="#home" class="nav-link">HOME</a>
+                </li>
+                <li class="scroll nav-item active">
+                    <a href="#sobre" class="nav-link ">SOBRE</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#servicos" class="nav-link">SERVIÇOS</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#experiencia" class="nav-link">EXPERIÊNCIAS</a>
+                </li>
+                <li class="nav-item active">
+                    <a href="#contato" class="nav-link">CONTATO</a>
+                </li>
+            </ul>
+
+            <form action="#" class="form-inline ml-auto">
+                <input type="text" class="form-control mx-lg-2 my-1" placeholder="Encontre no Site">
+                <button class="btn btn-outline-secondary">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!--HOME PARTE INICIAL DO SITE-->
+    <div class="container-fluid titulo" id="home">
+        <div class="row justify-content-md-center">
+            <div class="col-lg-8">
+                <div class="border border-0 rounded-pill py-5 mt-6 mb-6 bg-secondary2 sombra animated fadeInDownBig">
+                    <!-- mt-6 foi criado manualmente-->
+                    <div class="text-center">
+                        <h1 class="display-3 font-weight-bolder text-light fontBangers ">PATRICK LIMA</h1>
+                        <h4 class="font-weight-bold text-light mb-5">Desenvolvedor Desktop | Mobile | Web</h4>
+                        <h2 class="font-weight-bold text-light fonteTitulo fontBangers">Precisa de um <span
+                                class="font-weight-bolder">SITE</span> ou
+                            <span class="font-weight-bolder ">APLICATIVO?</span> </h2>
+                        <h3 class="font-weight-bold text-light mb-4" fontBangers>EU DESENVOLVO PARA VOCÊ!</h3>
+                        <button class="btn btn-primary btn-grande font-weight-bolder animated infinite tada">SOLICITAR
+                            ORÇAMENTO</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-lg-7" id="sobre">
+                <div class="mt-5 text-light">
+                    <h1 class="text-right mb-4">SOBRE</h1>
+                    <h2 class="text-center">Patrick H. Lima</h2>
+                    <h5 class="text-center mb-5">Analista de sistemas | Desenvolvedor Full-Stack em Desktop, Web e
+                        Mobile |
+                        Programador JS, JAVA e PYTHON</h5>
+                    <p class="mb-3 text-justify">Formado pelo Centro Universitario FAESA em 2020, apaixonado pelo
+                        desenvolvimento e pelo empreendedorismo, comecei a desenvolver meu primeiros
+                        projetos ainda na faculdade.</p>
+
+                    <p class="mb-3 text-justify">Desenvolvo projetos para empresas de grande, peque e medio porte, além
+                        dos meus projetos particulares. Atualmente estou desenvolvendo
+                        um aplicativo para dispositivo móveis, para a empresa Vale.
+                    </p class="mb-3 text-justify">
+
+                    <p class="mb-5 text-justify">Além disso, direciono parte do meu tempo para estudos em tecnologias
+                        novas, com objetivo de sempre permanecer atualizado.</p>
+                    <h3 class="text-center">Tecnologias que trabalho</h3>
+                    <h4 class="mb-4 text-center">React Native | Ionic | Electron | JQuery | NodeJS | MySQL | GitHub</h4>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="mt-5 text-center">
+                    <img src="img/Photo Editor-20190429_162604.jpg" alt="foto patrick" class="rounded-circle"
+                        width="338" height="450">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container bg-secondary py-3 mt-3 rounded" id="servicos">
+
+        <div class="row">
+
+            <div class="col-lg-9">
+                <h1 class="my-1 text-center text-light animated infinite flipInX">SOLICITE AQUI O SEU SERVIÇO</h1>
+                <div class="card-deck mt-3">
+                    <div class="card border-dark">
+                        <div class="card-header font-weight-bold text-center">Desenvolvimento Web</div>
+                        <div class="card-body"><img src="img/web2.jpg" alt="imagem web" class="card-img">
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-block btn-secondary ">Solicitar</button>
+                        </div>
+                    </div>
+                    <div class="card border-dark">
+                        <div class="card-header font-weight-bold text-center">Desenvolvimento Mobile</div>
+                        <div class="card-body"><img src="img/mobile.jpg" alt="imagem web" class="card-img">
+                        </div>
+                        <div class="card-footer"><button class="btn btn-block btn-secondary ">Solicitar</button></div>
+                    </div>
+                    <div class="card border-dark">
+                        <div class="card-header font-weight-bold text-center">Desenvolvimento Desktop</div>
+                        <div class="card-body"><img src="img/desktop.jpg" alt="imagem web" class="card-img">
+                        </div>
+                        <div class="card-footer"><button class="btn btn-block btn-secondary ">Solicitar</button></div>
+                    </div>
+
+                </div>
+                <div class="card-deck mt-3">
+                    <div class="card border-dark">
+                        <div class="card-header font-weight-bold text-center">Desenvolvimento Back-End</div>
+                        <div class="card-body"><img src="img/back.jpg" alt="imagem web" class="card-img">
+                        </div>
+                        <div class="card-footer"><button class="btn btn-block btn-secondary ">Solicitar</button></div>
+                    </div>
+                    <div class="card border-dark">
+                        <div class="card-header font-weight-bold text-center">Desenvolvimento Front-End</div>
+                        <div class="card-body"><img src="img/front.jpg" alt="imagem web" class="card-img">
+                        </div>
+                        <div class="card-footer"><button class="btn btn-block btn-secondary ">Solicitar</button></div>
+                    </div>
+                    <div class="card border-dark">
+                        <div class="card-header font-weight-bold text-center">Modelar Banco de Dados</div>
+                        <div class="card-body"><img src="img/dados.jpg" alt="imagem web" class="card-img">
+                        </div>
+                        <div class="card-footer"><button class="btn btn-block btn-secondary ">Solicitar</button></div>
+                    </div>
+                </div>
+
+                <!--CAROUSEL SLIDES-->
+
+                <div class="col-lg-12 mt-3" id="experiencia">
+                    <h1 class="my-3 text-center text-light animated infinite flipInX mb-n1">NOSSAS EXPERIÊNCIAS</h1>
+                    <h6 class="text-center mt-1"> Acompanhe nossas experiências através de alguns serviços realizados
+                    </h6>
+                    <div class="carousel slide carousel-fade" data-ride="carousel" id="carousel">
+
+                        <!-- A classe carousel-indicators (indicadores de onde está cada slide, é a inferior que muda o slide)-->
+                        <!-- OS INDICADORES FICAM DENTRO DE UMA LISTA ORDENADA (ol) usando a classe (carousel-indicators)-->
+                        <ol class="carousel-indicators">
+                            <!-- classe active serve para colocar em destaque as barras do cursor-->
+                            <li href="#carousel" data-slide-to="0" class="active"></li>
+                            <li href="#carousel" data-slide-to="1" class="active"></li>
+                            <li href="#carousel" data-slide-to="2" class="active"></li>
+                            <li href="#carousel" data-slide-to="3" class="active"></li>
+                        </ol>
+
+                        <!-- carousel-iner (onde importo as imagens dos slides)-->
+                        <div class="carousel-inner">
+                            <!--a classe carousel-item tem que ter o (active) para a imagem aparecer-->
+                            <div class="carousel-item active">
+                                <a href="#"><img src="img/trab1.jpg" class="d-block img-fluid mx-auto max-width: 100%"
+                                        alt="img1"></a>
+                                <!-- LEGENDA PARA TELA GRANDE-->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2 class="text-black2 font-weight-bolder">Pagina e App " 4 Cantos "</h2>
+                                </div>
+                                <!-- LEGENDA PARA TELA PEQUENA-->
+                                <div class="carousel-caption d-lg-none d-md-block">
+                                    <h6 class="text-black2 font-weight-bolder mb-n1">Pagina e App " 4 Cantos "</h6>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <a href="#"> <img src="img/trab2.jpg" class="d-block img-fluid mx-auto max-width: 100%"
+                                        alt="img1"></a>
+                                <!-- LEGENDA PARA TELA GRANDE-->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2 class="text-black2 font-weight-bolder">Pagina e App " TRITTON "</h2>
+                                </div>
+                                <!-- LEGENDA PARA TELA pequena-->
+                                <div class="carousel-caption d-lg-none d-md-block">
+                                    <h6 class="text-black2 font-weight-bolder mb-n1">Pagina e App " TRITTON "</h6>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <a href="#"> <img src="img/trab3.jpg" class="d-block img-fluid mx-auto max-width: 100%"
+                                        alt="img1"></a>
+                                <!-- LEGENDA PARA TELA GRANDE-->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2 class="text-black2 font-weight-bolder">Pagina e App " Music CX "</h2>
+                                </div>
+                                <!-- LEGENDA PARA TELA pequena-->
+                                <div class="carousel-caption d-lg-none d-md-block">
+                                    <h6 class="text-black2 font-weight-bolder mb-n1">Pagina e App "Music CX"</h6>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <a href="#"> <img src="img/trab4.jpg" class="d-block img-fluid mx-auto max-width: 100%"
+                                        alt="img1"></a>
+                                <!-- LEGENDA PARA TELA GRANDE-->
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2 class="text-black2 font-weight-bolder">Pagina e App " GOOD WORK "</h2>
+                                </div>
+                                <!-- LEGENDA PARA TELA pequena-->
+                                <div class="carousel-caption d-lg-none d-md-block">
+                                    <h6 class="text-black2 font-weight-bolder mb-n1">Pagina e App " GOOD WORK "</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- carousel-controls (setas laterais para controlar o cursor do slide)-->
+
+                        <div class="carousel-controls">
+                            <a href="#carousel" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+
+                            <a href="#carousel" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card border-dark mt-3">
+                    <ul class="list-group">
+                        <h5 class="list-group-item text-center font-weight-bold bg-dark text-light">Feedback de Clientes
+                        </h5>
+
+                        <a href="#" class="list-group-item">Lorem ipsum dolor modi alias temporibus quia accusantium sit
+                            amet.</a>
+                        <a href="#" class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tempora ratione mollitia veniam cum, cumque modi alias temporibus quia accusantium
+                            obcaecati!</a>
+                        <a href="#" class="list-group-item">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Culpa, dolor obcaecati! Similique sequi excepturi temporibus quia accusantium laborum quia
+                            accusantium..</a>
+                        <a href="#" class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tempora ratione mollitia veniam cum, cumque modi alias temporibus quia accusantium
+                            obcaecati!</a>
+                        <a href="#" class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eligendi.</a>
+                        <a href="#" class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+                            vero veritatis non vitae, dicta natus ad, ab atque fugit laborum dolor sit amet vel dolore
+                            odit velit
+                            architecto, quo inventore dolor sit amet numquam tempora sequi asperiores ea?</a>
+                        <a href="#" class="list-group-item">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Repudiandae consequatur autem nobis veritatis vel ab eius rerum! Dignissimos!</a>
+                        <a href="#" class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                        <a href="#" class="list-group-item text-center font-weight-bold bg-dark text-light">Mais
+                            Feedbacks...</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--RODAPÉ-->
+    <div class="container-fluid2 mt-3" id="contato">
+        <div class="row pt-3 bg-secondary">
+
+            <div class="col-12 col-md text-center">
+                <h3 class="mb-4">Contato</h3>
+                <ul class="list-unstyled">
+                    <!--list-unstyled tira as bolinhas da lista-->
+                    <h3>
+                        <li><a href="#" class="text-light"> <i class="far fa-envelope"></i>
+                                patrick.lima@developer.com.br</a></li>
+                    </h3>
+                    <h3>
+                        <li><a href="#" class="text-light"> <i class="fas fa-mobile-alt"></i> (27) 99999 - 9999)</a>
+                        </li>
+                    </h3>
+                    <h3>
+                        <li><a href="#" class="text-light"> <i class="fas fa-map-marker-alt"></i> Vitória - ES</a></li>
+                    </h3>
+                </ul>
+            </div>
+
+            <div class="col-12 col-md text-center">
+                <h3>Redes Sociais</h3>
+                <a href="" class="text-light">
+                    <h2><span class="fab fa-twitter"></h2></span>
+                </a>
+                <a href="" class="text-light">
+                    <h2><span class="fab fa-facebook"></h2></span>
+                </a>
+                <a href="" class="text-light">
+                    <h2><span class="fab fa-youtube"></h2></span>
+                </a>
+                <a href="" class="text-light">
+                    <h2><span class="fab fa-linkedin"></h2></span>
+                </a>
+                <a href="" class="text-light">
+                    <h2> <span class="fab fa-instagram"></h2></span>
+                </a>
+
+            </div>
+
+            <div class="col-12 col-md">
+                <h3 class="text-center">DEIXE SUA MENSAGEM</h3>
+                <input type="text" class="form-control mx-lg-2 my-1" placeholder="Seu nome">
+                <input type="email" class="form-control mx-lg-2 my-1" placeholder="Seu email">
+                <textarea class="form-control mx-lg-2 my-1" name="textArea" id="" cols="50" rows="4"></textarea>
+                <div class="text-center my-1"> <button class="btn btn-grande2 btn-dark">Enviar</button></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 py-1">
+                <h5>
+                    <p class="text-light text-center"> &copy Copyrigt 2019 - by Patrick Lima</p>
+                </h5>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

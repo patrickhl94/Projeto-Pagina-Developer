@@ -1,0 +1,38 @@
+.titulo {
+    background-image: url("img/imgFundo4.jpg");
+}
+
+/*FONTES*/
+
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:600i');
+@import url('https://fonts.googleapis.com/css?family=Wendy+One');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+.fontBangers {
+    font-family: 'Bangers', cursive;
+}
+
+.sombra {
+    box-shadow: 2px 2px 5px 2px #007bff;
+}
+
+.btn-grande {
+    width: 40%;
+}
+
+.btn-grande2 {
+    width: 60%;
+}
+
+
+.text-black2 {
+    color: black;
+}
+
+.container-fluid2 {
+    width: 96%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
